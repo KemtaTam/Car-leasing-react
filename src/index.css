@@ -1,13 +1,30 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+	font-family: "Nekst-Black";
+	src: url("./assets/Nekst/Nekst-Black.eot");
+	src: local("Nekst Black"), local("Nekst-Black"),
+		url("./assets/Nekst/Nekst-Black.eot?#iefix") format("embedded-opentype"),
+		url("./assets/Nekst/Nekst-Black.woff2") format("woff2"),
+		url("./assets/Nekst/Nekst-Black.woff") format("woff"),
+		url("./assets/Nekst/Nekst-Black.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("./assets/Gilroy-Black/Gilroy-Regular.eot");
+	src: local("Gilroy Regular"), local("Gilroy-Regular"),
+		url("./assets/Gilroy-Black/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+		url("./assets/Gilroy-Black/Gilroy-Regular.woff2") format("woff2"),
+		url("./assets/Gilroy-Black/Gilroy-Regular.woff") format("woff"),
+		url("./assets/Gilroy-Black/Gilroy-Regular.ttf") format("truetype");
 }

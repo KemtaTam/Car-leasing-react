@@ -1,0 +1,27 @@
+.range_cost {
+	background: -webkit-linear-gradient(
+		left,
+		#ff9514 0%,
+		#ff9514 var(--progress, 46%),
+		#e5e5e5 var(--progress, 46%),
+		#e5e5e5 100%
+	);
+}
+.range_fee {
+	background: -webkit-linear-gradient(
+		left,
+		#ff9514 0%,
+		#ff9514 var(--progress, 6%),
+		#e5e5e5 var(--progress, 6%),
+		#e5e5e5 100%
+	);
+}
+.range_leasing {
+	background: -webkit-linear-gradient(
+		left,
+		#ff9514 0%,
+		#ff9514 var(--progress, 100%),
+		#e5e5e5 var(--progress, 100%),
+		#e5e5e5 100%
+	);
+}

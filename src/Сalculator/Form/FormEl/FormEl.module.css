@@ -1,0 +1,148 @@
+.form_el {
+	padding-top: 32px;
+}
+.form_el_ellipse {
+	background-color: #f3f3f4;
+	margin-top: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+	border-radius: 16px;
+	width: max-content;
+	height: 68px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+.form_el_ellipse_disabled {
+	opacity: 0.4;
+}
+.form_el_ellipse:focus-within {
+	background-color: white;
+	border: 2px solid #f3f3f4;
+}
+.form_el_ellipse:focus-within .range {
+	height: 1px;
+}
+
+.value_and_type {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.value_ellipse {
+	background-color: #ebebec;
+	border-radius: 16px;
+	width: 69px;
+	height: 54px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 7px;
+	top: 7px;
+}
+.form_el_type {
+	font-size: 20px;
+}
+
+.fee_input_value {
+	width: 35px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #575757;
+}
+.fee_input_value::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.fee_input_value {
+	-moz-appearance: textfield;
+}
+
+.input_value {
+	border: none;
+	background-color: transparent;
+	color: #575757;
+	outline: none;
+	width: 300px;
+}
+.input_value::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.input_value {
+	-moz-appearance: textfield;
+}
+
+.range {
+	width: 380px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	transform: translateY(15px);
+}
+.range:focus {
+	outline: none;
+}
+
+/* Для браузеров webkit(google chrome, chromium) */
+.range::-webkit-slider-runnable-track {
+	border-radius: 5px/100%;
+	height: 2px;
+}
+.range::-webkit-slider-thumb {
+	background: rgba(255, 149, 20, 1);
+	border: 1px solid rgba(255, 149, 20, 1);
+	border-radius: 100%;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	-webkit-appearance: none;
+	margin-top: -10px;
+}
+.range:focus {
+	box-shadow: 0px 0px 4px #ff9514;
+}
+.form_el_ellipse:hover .range {
+	height: 1px;
+}
+
+/* для mozilla firefox */
+.range::-moz-range-track {
+	border-radius: 10px/100%;
+	height: 1px;
+	border: 1px solid rgba(255, 149, 20, 1);
+	background-color: rgba(255, 149, 20, 1);
+}
+.range::-moz-range-thumb {
+	background: rgba(255, 149, 20, 1);
+	border: 1px solid rgba(255, 149, 20, 1);
+	border-radius: 20px/100%;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	-webkit-appearance: none;
+	margin-top: -10px;
+}
+
+@media screen and (max-width: 1024px){
+	.form_el {
+		width: 100%;
+	}
+	.form_el_ellipse {
+		width: 100%;
+	}
+	.range {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 320px){
+	.form_el_title{
+		font-size: 14px;
+	}
+	.value, .form_el_type_size, .fee_input_value{
+		font-size: 22px;
+	}
+}
