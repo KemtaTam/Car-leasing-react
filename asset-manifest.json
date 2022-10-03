@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Oxem-test-task-react/static/css/main.f8ccaf50.css",
+    "main.js": "/Oxem-test-task-react/static/js/main.4a24c738.js",
+    "static/media/Nekst-Black.eot": "/Oxem-test-task-react/static/media/Nekst-Black.5fc4621c869412e7e801.eot",
+    "static/media/Nekst-Black.ttf": "/Oxem-test-task-react/static/media/Nekst-Black.dffaebf93d38d4c41536.ttf",
+    "static/media/Gilroy-Regular.eot": "/Oxem-test-task-react/static/media/Gilroy-Regular.19055ba082a9f78262f6.eot",
+    "static/media/Gilroy-Regular.ttf": "/Oxem-test-task-react/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
+    "static/media/Nekst-Black.woff": "/Oxem-test-task-react/static/media/Nekst-Black.f0e2921efcf1112b1749.woff",
+    "static/media/Nekst-Black.woff2": "/Oxem-test-task-react/static/media/Nekst-Black.44814bfd3ba4a266cf1d.woff2",
+    "static/media/Gilroy-Regular.woff": "/Oxem-test-task-react/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "static/media/Gilroy-Regular.woff2": "/Oxem-test-task-react/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "index.html": "/Oxem-test-task-react/index.html",
+    "static/media/preloader.svg": "/Oxem-test-task-react/static/media/preloader.4e82ac858606a43fa04f9de824dc3dc3.svg",
+    "main.f8ccaf50.css.map": "/Oxem-test-task-react/static/css/main.f8ccaf50.css.map",
+    "main.4a24c738.js.map": "/Oxem-test-task-react/static/js/main.4a24c738.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8ccaf50.css",
+    "static/js/main.4a24c738.js"
+  ]
+}
